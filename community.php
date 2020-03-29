@@ -11,6 +11,7 @@ if($_POST){
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Community</title>
 </head>
 <body>
     <div class="topnav">
