@@ -6,11 +6,16 @@ body {
     padding-left: 170px;
     padding-right: 170px;
 }
+.topnav{
+    overflow: hidden;
+    background-color: white;
+    padding: 0;
+}
 .nav{
     background-color: white;
     float:right;
     padding-right: 30px;
-    padding-left: 444.1px;
+    padding-left: 30px;
     padding-top: 50px;
     padding-bottom: 30px;
     font-family: 'Open Sans', sans-serif;
@@ -24,12 +29,16 @@ body {
     padding-top: 20px;
     font-size: 20px;
     text-decoration: none;
-    overflow: hidden;
     color:black;
     font-weight:bold;
 }
 .nav a:hover{
     background-color: #e8ebe9;
+}
+.topnav img{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .web {
     letter-spacing: 1px;
@@ -69,7 +78,8 @@ h4{
 .web p{
     text-align: center;
     line-height:60px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    font-weight:bold;
     padding-left: 400px;
     padding-right:30px;
     font-size: 50px;
@@ -91,7 +101,7 @@ h4{
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 40px;
-    height: 350px;
+    height: 300px;
 }
 .hline h5{
     font-size:40px;
@@ -115,6 +125,7 @@ p.final{
     padding-top: 80px;
     padding-bottom: 40px;
     font-size: 50px;
+    font-weight: bold;
 }
 p.final1{
     text-align: center;
@@ -124,6 +135,7 @@ p.final1{
     padding-right:100px;
     padding-bottom: 40px;
     font-size: 80px;
+    font-weight: bold;
 }
 .join{
     background-color:#82ffe2;
@@ -157,8 +169,11 @@ h2 {
 }
 .contact-form {
     padding-top: 20px;
-    margin-right: 50px;
-    margin-left: 20px;
+    text-align:center;
+}
+.comment {
+    padding-top: 20px;
+    margin-bottom:40px;
     text-align:center;
 }
 .form {
@@ -178,6 +193,25 @@ h2 {
     font-size:25px;
     color:white;
     width:200px;
-    height:60px;
+}
+.form1 {
+    width: 600px;
     font-family: 'Arimo', sans-serif;
+    background: transparent;
+    outline:none;
+    border:none;
+    border-bottom:2px solid black;
+    color: grey;
+    font-size: 20px;
+    margin: 20px;
+}
+.submit1 {
+    margin-left: 40px;
+    background-color: #8aedca;
+    font-size:20px;
+    color:black;
+    width:150px;
+    height:50px;
+    font-family: 'Arimo', sans-serif;
+    margin-right: 30px;
 }
