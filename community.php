@@ -27,7 +27,7 @@ if($_POST){
     <div class="main">
         <h5 style="color:aliceblue;">h</h5>
         <h2>Community</h2>
-        <p> Please use this form to reach out to us so that we can add new resources and improve the website for the needs of the community.</p>
+        <h4> This form is a way to connect our community and build strong supportive relations to help us all as we go through these tough times with COVID-19. Feel free to comment below and add to the converstaion and never forget the community you have here supporting you.</h4>
             <form action="" method="POST">
                 <div class="comment">
                 <input type="text" name="name" placeholder="Display name" class="form1" required/><br>
